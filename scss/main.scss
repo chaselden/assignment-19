@@ -1,0 +1,41 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+body{
+background-color:black;
+}
+
+#app-container{
+max-width: 960px;
+background-color:black;
+margin-top: 100px;
+
+h1{
+color: white;
+font-family: helvetica;
+
+}
+
+.thumbnail{
+background-color:black;
+margin: 0 auto;
+border: 0;
+h3{
+color: white;
+}
+}
+
+.glyphicon-home{
+position:fixed !important;
+position: absolute;
+top: 25px;
+right: 35px;
+font-size: 35px;
+
+ }
+
+}
